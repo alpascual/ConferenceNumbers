@@ -40,7 +40,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    UIImage *image = [UIImage imageNamed:@"leather.jpg"];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    [self.view insertSubview:imageView atIndex:0];
 }
 
 - (void)viewDidUnload

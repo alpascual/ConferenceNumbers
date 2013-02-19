@@ -13,6 +13,8 @@
 		76207AE61363C3D1006FBBCC /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76207AE41363C3CF006FBBCC /* AboutViewController.m */; };
 		76207AE71363C3D1006FBBCC /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76207AE51363C3CF006FBBCC /* AboutViewController.xib */; };
 		76207AE91363C4C6006FBBCC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76207AE81363C4C6006FBBCC /* iAd.framework */; };
+		7687F3FC16D32FE200B74EB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7687F3FB16D32FE200B74EB1 /* Default-568h@2x.png */; };
+		7687F3FE16D332B500B74EB1 /* leather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7687F3FD16D332B500B74EB1 /* leather.jpg */; };
 		76BD41CB13627B7000EA23F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BD41CA13627B7000EA23F8 /* UIKit.framework */; };
 		76BD41CD13627B7000EA23F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BD41CC13627B7000EA23F8 /* Foundation.framework */; };
 		76BD41CF13627B7000EA23F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BD41CE13627B7000EA23F8 /* CoreGraphics.framework */; };
@@ -39,6 +41,8 @@
 		76207AE41363C3CF006FBBCC /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		76207AE51363C3CF006FBBCC /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 		76207AE81363C4C6006FBBCC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		7687F3FB16D32FE200B74EB1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7687F3FD16D332B500B74EB1 /* leather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = leather.jpg; path = Resources/leather.jpg; sourceTree = "<group>"; };
 		76BD41C613627B7000EA23F8 /* ConferenceNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConferenceNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BD41CA13627B7000EA23F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		76BD41CC13627B7000EA23F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,6 +84,7 @@
 		76BD41BB13627B6F00EA23F8 = {
 			isa = PBXGroup;
 			children = (
+				7687F3FB16D32FE200B74EB1 /* Default-568h@2x.png */,
 				76207AE81363C4C6006FBBCC /* iAd.framework */,
 				76BD41D013627B7000EA23F8 /* ConferenceNumber */,
 				76BD41C913627B7000EA23F8 /* Frameworks */,
@@ -108,6 +113,7 @@
 		76BD41D013627B7000EA23F8 /* ConferenceNumber */ = {
 			isa = PBXGroup;
 			children = (
+				7687F3FD16D332B500B74EB1 /* leather.jpg */,
 				76CC80511367C80700965FC4 /* Icon-72.png */,
 				76CC80521367C80700965FC4 /* Icon.png */,
 				76CC80531367C80700965FC4 /* Icon@2x.png */,
@@ -205,6 +211,8 @@
 				76CC80561367C80700965FC4 /* Icon.png in Resources */,
 				76CC80571367C80700965FC4 /* Icon@2x.png in Resources */,
 				76CC80581367C80700965FC4 /* IconBig.png in Resources */,
+				7687F3FC16D32FE200B74EB1 /* Default-568h@2x.png in Resources */,
+				7687F3FE16D332B500B74EB1 /* leather.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +286,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConferenceNumber/ConferenceNumber-Prefix.pch";
 				INFOPLIST_FILE = "ConferenceNumber/ConferenceNumber-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
@@ -327,7 +335,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConferenceNumber/ConferenceNumber-Prefix.pch";
 				INFOPLIST_FILE = "ConferenceNumber/ConferenceNumber-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -341,7 +349,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConferenceNumber/ConferenceNumber-Prefix.pch";
 				INFOPLIST_FILE = "ConferenceNumber/ConferenceNumber-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
